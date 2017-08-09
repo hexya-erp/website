@@ -1,0 +1,7 @@
++++
+title = "Installation"
+description = "How to build and install Hexya"
+weight = 10
++++
+
+include::/doc/install.adoc[]

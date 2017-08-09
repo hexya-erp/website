@@ -1,0 +1,7 @@
++++
+title = "Module Development Tutorial"
+description = "How to develop a custom module with Hexya"
+weight = 20
++++
+
+include::/doc/tutorial.adoc[]

@@ -1,0 +1,73 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+
+<div id="main">
+    <div id="hero">
+        <h1>{{ .Title }}</h1>
+        <p>{{ .Site.Params.description }}</p>
+    </div>
+    <div id="action-buttons">
+        <a class="button primary big" href="/docs/"
+           onclick="_gaq.push(['_trackEvent', 'hexya', 'learn', '1.0']);">Learn</a>
+        <a class="button outline big" href="https://github.com/hexya-erp"
+           onclick="_gaq.push(['_trackEvent', 'hexya', 'github', '1.0.0']);">View on Github</a>
+    </div>
+    <div class="message focus" data-component="message"><span class="close small"></span>
+        Welcome to the new Hexya website !
+    </div>
+    <div id="kube-features">
+        <div class="row gutters">
+            <div class="col col-4 item">
+                <figure>
+                    <i class="fa fa-paper-plane fa-4x"></i>
+                </figure>
+                <h3>Fast</h3>
+                <p>Hexya is written in Go, a compiled language for optimal performance.</p>
+            </div>
+            <div class="col col-4 item">
+                <figure>
+                    <i class="fa fa-arrows fa-4x"></i>
+                </figure>
+                <h3>Extensible</h3>
+                <p>We do not believe in one-size-fits-all concept for the ERP world. Hexya can be customized by
+                    including official modules, community modules or your own custom modules.</p>
+            </div>
+            <div class="col col-4 item">
+                <figure>
+                    <i class="fa fa-wrench fa-4x"></i>
+                </figure>
+                <h3>Maintainable</h3>
+                <p>Go's simplicity together with Hexya's strongly typed API leads to high quality, easily maintainable,
+                    business code. Unlike similar products, Hexya provides auto-completion for the whole API.</p>
+            </div>
+        </div>
+        <div class="row gutters">
+            <div class="col col-4 item">
+                <figure>
+                    <i class="fa fa-puzzle-piece fa-4x"></i>
+                </figure>
+                <h4>Framework</h4>
+                <p>Hexya is a business application development framework. Its modularity enables reuse of business code
+                    from one project to another.</p>
+            </div>
+            <div class="col col-4 item">
+                <figure>
+                    <i class="fa fa-building-o fa-4x"></i>
+                </figure>
+                <h4>ERP</h4>
+                <p>Hexya is shipped by default with many modules so as to create a full-featured ERP out-of-the-box.</p>
+            </div>
+            <div class="col col-4 item">
+                <figure>
+                    <i class="fa fa-exchange fa-4x"></i>
+                </figure>
+                <h4>Open Source</h4>
+                <p>Hexya is fully open source. The framework core is licensed under the Apache License. Business modules
+                    are generally AGPL.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}

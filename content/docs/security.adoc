@@ -1,0 +1,7 @@
++++
+title = "Security Reference"
+description = "Security mechanisms in Hexya"
+weight = 120
++++
+
+include::/doc/security.adoc[]

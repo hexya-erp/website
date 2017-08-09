@@ -1,0 +1,7 @@
++++
+title = "Internationalization Reference"
+description = "How to localize your module"
+weight = 130
++++
+
+include::/doc/i18n.adoc[]

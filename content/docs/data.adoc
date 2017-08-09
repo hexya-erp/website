@@ -1,0 +1,7 @@
++++
+title = "Data Reference"
+description = "Automatically loading data in custom modules"
+weight = 140
++++
+
+include::/doc/data.adoc[]

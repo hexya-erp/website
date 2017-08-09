@@ -1,0 +1,29 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Hexya"
+theme = "kube"
+Paginate = 4
+[Params]
+  description = "Hexya is an opensource ERP and business application development framework"
+  RSSLink = "/index.xml"
+  author = "NDP Systèmes" # add your company name
+  github = "https://github.com/hexya-erp" # add your github profile name
+  twitter = "" # add your twitter profile
+  email = "contact@hexya.io"
+
+[[menu.main]]
+    name = "Docs"
+    weight = 10
+    url = "/docs/"
+[[menu.main]]
+    name = "FAQ"
+    weight = 20
+    url = "/faq/"
+[[menu.main]]
+    name = "Blog"
+    weight = 30
+    url = "/blog/"
+[[menu.main]]
+    name = "GitHub"
+    weight = 100
+    url = "https://github.com/hexya-erp"
