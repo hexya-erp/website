@@ -1,6 +1,7 @@
 +++
 title = "Internationalization Reference"
 description = "How to localize your module"
+bref = "How to localize your module"
 weight = 130
 +++
 

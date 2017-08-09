@@ -1,6 +1,7 @@
 +++
 title = "Models Reference"
 description = "The models API of Hexya"
+bref = "The models API of Hexya"
 weight = 100
 +++
 

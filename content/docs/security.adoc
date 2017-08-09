@@ -1,6 +1,7 @@
 +++
 title = "Security Reference"
 description = "Security mechanisms in Hexya"
+bref = "Security mechanisms in Hexya"
 weight = 120
 +++
 

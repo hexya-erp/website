@@ -1,6 +1,7 @@
 +++
 title = "Design"
 description = "The design choices of Hexya"
+bref = "The design choices of Hexya"
 weight = 1
 +++
 
