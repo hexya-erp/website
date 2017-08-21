@@ -1,7 +1,7 @@
 +++
 title = "A Homepage for Hexya"
 description = "After one-and-a-half year of development it is time for Hexya to go one step further by opening up to the community"
-date = "2017-08-15T10:00:00+02:00"
+date = "2017-08-08T10:00:00+02:00"
 weight = 20
 draft = false
 +++
