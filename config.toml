@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Hexya"
 theme = "kube"
 Paginate = 4
+disqusShortname = "hexya-io"
 [Params]
   description = "Hexya is an opensource ERP and business application development framework"
   RSSLink = "/index.xml"
