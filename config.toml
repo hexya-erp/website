@@ -17,6 +17,10 @@ disqusShortname = "hexya-io"
     weight = 10
     url = "/docs/"
 [[menu.main]]
+    name = "Demo"
+    weight = 15
+    url = "https://demo.hexya.io"
+[[menu.main]]
     name = "FAQ"
     weight = 20
     url = "/faq/"
