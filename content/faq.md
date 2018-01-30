@@ -51,6 +51,36 @@ licensed under the GNU LGPL, so we kept this license.
 Finally, to protect our work on business code that we consider the one with the most 
 added value, we release it under the GNU AGPL.
 
+## Will Hexya remain open source ?
+
+Yes. Hexya will always be 100% open source.
+
+See below.
+
+## What is your business model ?
+
+Like any other company, we need to earn money for living and this is particularly crucial for open source companies.
+
+There mainly to business models for open source companies:
+
+- Open core model: the core of the software is open source and advanced features are proprietary.
+- Professional services model: the software is fully opensource and professional services are available for a fee.
+
+Most open source companies developing great products go towards open core products, and we, as a software business company, understand this very well.
+
+However, in the ERP world, we believe that the added value towards our customers is at least two thirds in what is called "ERP integration", that is:
+
+- Analysing the customer's business processes
+- Finding the compromise between modifiying company processes to match the ERP and adapting the ERP to the company processes
+- Developing customization modules
+- User training and change management
+- Managing the project of setting up an ERP
+
+And we see that customer companies are quite willing to pay for this services that give them instant return on investment.
+On the other hand, customers are often reluctant to pay for license fees that are seen as the "editor's tax". 
+
+That is why we believe that we should develop the software open source to benefit from the community and make our money on ERP integration.
+
 ## Can I create and distribute proprietary modules of Hexya?
 
 NO. 
