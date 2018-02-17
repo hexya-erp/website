@@ -4,6 +4,7 @@ title = "Hexya"
 theme = "kube"
 Paginate = 4
 disqusShortname = "hexya-io"
+googleAnalytics = "UA-114287546-1"
 [Params]
   description = "Hexya is an opensource ERP and business application development framework"
   RSSLink = "/index.xml"
